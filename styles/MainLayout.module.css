@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    background-color: lightgray;
+    min-height: 100vh;
+}
+
+.sidebarLeft {
+    flex: 1;
+    flex-shrink: 0;
+}
+
+.main {
+    background-color: blud;
+    flex: 4;
+}
+
+.sidebarRight {
+    background-color: green;
+    flex: 2;
+    flex-shrink: 0;
+}

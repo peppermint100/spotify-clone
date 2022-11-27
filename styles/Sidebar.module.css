@@ -1,0 +1,17 @@
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: coral;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    flex: 2;
+    background-color: blue;
+}
+
+.navigations {
+    flex: 8;
+    background-color: violet;
+}

@@ -2,6 +2,7 @@
 
 ### Sidebar
 - home
+- new releases
 - premade playlist
 - search
 

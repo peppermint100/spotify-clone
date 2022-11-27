@@ -1,0 +1,17 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.hotChart {
+    flex: 7;
+    background-color: aqua;
+}
+
+.hotArtists {
+    flex: 3;
+    background-color: firebrick;
+}
