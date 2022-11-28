@@ -1,11 +1,9 @@
-import MainLayout from '../components/layouts/MainLayout'
+import MainLayout from '../components/layouts/MainLayout';
 
 export default function Home() {
   return (
     <MainLayout>
-      <div>
-        home
-    </div>
+      feawk
     </MainLayout>
   )
 }

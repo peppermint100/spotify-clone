@@ -12,13 +12,13 @@ export default function RedirectUri() {
     const token = params.get("access_token");
 
     useEffect(() => {
+        console.log(token);
         axios.defaults.headers.common['Authorization'] = `Bearer ${token}`;
-        router.push("/");
+        router.push("/", "/", { shallow: true });
     }, [])
 
     return (
         <MainLayout>
-            redirect uri
         </MainLayout>
     )
 }
