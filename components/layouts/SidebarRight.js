@@ -1,5 +1,5 @@
-import HotChart from "./HotChart";
-import HotArtists from "./HotArtists";
+import Episodes from "./Episodes";
+import FeaturedPlaylists from "./FeaturedPlaylists";
 
 import styles from "./../../styles/SidebarRight.module.css";
 
@@ -7,10 +7,10 @@ export default function SidebarRight() {
     return (
         <div className={styles.container}>
             <section className={styles.hotChart}>
-                <HotChart />
+                <FeaturedPlaylists />
             </section>
             <section className={styles.hotArtists}>
-                <HotArtists />
+                <Episodes />
             </section>
         </div>
     )

@@ -12,7 +12,7 @@
 - hits
 - themed playlist
 
-### Hot Chart, Hot Artists
+### Audio Books, Episodes
 - only images
 
 ### Pages
